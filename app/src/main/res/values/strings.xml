@@ -1,0 +1,25 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Just Coffee</string>
+    <string name="username">Name</string>
+    <string name="topping_Header">Toppings</string>
+    <string name="whipped_cream">Whipped Cream</string>
+    <string name="chocolate">Chocolate</string>
+    <string name="quantity_Header">Quantity</string>
+    <string name="decrement_Symbol">-</string>
+    <string name="increment_Symbol">+</string>
+    <string name="quantity_Value">0</string>
+    <string name="order_Button">Order</string>
+    <string name="subject">
+        Just Java order for <xliff:g id="names">%s</xliff:g>
+    </string>
+    <string name="order_Summary">
+        Name: <xliff:g id="name">%s</xliff:g>
+        \nAdd Whipped Cream? <xliff:g id="whippedCreamStatus">%b</xliff:g>
+        \nAdd Chocolate? <xliff:g id="chocolateStatus">%b</xliff:g>
+        \nQuantity: <xliff:g id="quantity">%d</xliff:g>
+        \nTotal: <xliff:g id="price">%s</xliff:g>
+        \nThank you!
+    </string>
+    <string name="maxCoffeeWarning">You cannot have more than 100 Coffees</string>
+    <string name="minCoffeeWarning">You cannot have less than 1 Coffee</string>
+</resources>
